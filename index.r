@@ -16,3 +16,4 @@ ggplot(history, aes(x = createdat)) +
   scale_color_manual(name = "Legend", values = c("Price" = "blue", "Sold" = "red")) + 
   labs(title = "Item History", x = "Date", y = "Value") +
   theme_minimal()
+
